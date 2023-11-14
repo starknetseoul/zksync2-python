@@ -73,6 +73,6 @@ docker cp zksolc:/solidity ./examples/
 docker rm zksolc
 ```
 
-On host machine, for each smart contract there is `build/combined.json` file
+On the host machine, each smart contract will have a build/combined.json file...
 (e.g. `solidity/storage/build/combined.json`) that can be used in program for 
 deploying and interacting with smart contract.
